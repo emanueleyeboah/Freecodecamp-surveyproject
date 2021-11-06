@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 10;
+    text-align: left;
+}
+
+#title {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
+#information {
+    text-align: justify;
+    padding-bottom: 3rem;
+    padding-top: 1.2rem;
+}
+
+#question {
+    padding-left: 3rem;
+}
