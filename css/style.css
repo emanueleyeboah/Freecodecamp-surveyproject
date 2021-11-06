@@ -1,29 +1,68 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-size: 1.3rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 10;
-    text-align: left;
-}
-
-#title {
-    text-align: center;
-}
-
-#description {
-    text-align: center;
-}
-
-#information {
-    text-align: justify;
-    padding-bottom: 3rem;
-    padding-top: 1.2rem;
-}
-
-#question {
-    padding-left: 3rem;
-}
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-size: 1.3rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 10;
+            color: aliceblue;
+            text-align: left;
+            background-image: url("../images/student.jpg");
+            background-size: cover;
+            background-origin: border-box;
+            border-radius: 2rem;
+        }
+        
+        legend {
+            font-size: 1.8rem;
+        }
+        
+        input {
+            font-size: 1.2rem;
+            border-radius: 0.25rem;
+        }
+        
+        #title {
+            text-align: center;
+        }
+        
+        #description {
+            text-align: center;
+        }
+        
+        #information {
+            text-align: left;
+            padding: 1rem 0.7rem 0.7rem;
+            margin-left: 2rem 0.5rem 0.5rem 1.5rem;
+            border-style: solid;
+            border-radius: 1rem;
+            font-style: oblique;
+            font-weight: 20;
+        }
+        
+        #question {
+            padding-left: 3rem;
+        }
+        
+        button {
+            padding: 1rem 7rem 1rem;
+            border-radius: 1rem;
+            text-align: center;
+            font-family: cursive;
+            background-color: darkseagreen;
+            font-weight: bold;
+        }
+        
+        textarea {
+            border-radius: 0.3rem;
+        }
+        
+        @media screen and (max-width: 800px) {
+            .left,
+            .main,
+            .right {
+                width: 100%;
+            }
+        }
