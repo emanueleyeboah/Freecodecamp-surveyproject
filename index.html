@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Title for the survey-->
+    <h1 id="title"> K.N.U.S.T. COURSE EVALUATION</h1>
+
+    <!---Title description-->
+    <p id="description">This survey is to assit Academic heads, Heads of Department and the various college provost(s) on students performance.</p>
+
+    <!--form-->
+    <form id="survey-form" action="index.html" id="dropdown">
+
+        <div id="information">
+            <!--Compulsory information-->
+            <fieldset>
+                <legend>Fill in the following</legend>
+                <!--Request for name-->
+                <div>
+                    <label id="name-label" for="name-label">Name</label>
+                    <input id="name" type="text" placeholder="Enter Your Full Name" required>
+                    <br>
+
+                    <!--Request for Email-->
+                    <label id="email-label" for="email-label">Email</label>
+                    <input id="email" type="email" placeholder="Enter Your Email" required>
+
+                    <br>
+                    <!--Request for Phone Number-->
+                    <label id="number-label" for="number-label">Number</label>
+                    <input type="number" id="number" placeholder="Enter Your Phone Number" max="7" min="0" required>
+
+                </div>
+        </div>
+        </fieldset>
+
+
+        <div id="question">
+
+            <p>1.Overall, how would you rate the course?</p>
+            <input type="radio" id="excellent" name="rate" value="Excellent">
+            <label for="excellent">Excellent</label><br>
+
+            <input type="radio" id="excellent" name="rate" value="very good">
+            <label for="very good">Very good</label><br>
+
+            <input type="radio" id="fair" name="rate" value="fair">
+            <label for="fair">fair</label><br>
+
+            <input type="radio" id="poor" name="rate" value="poor">
+            <label for="excellent">poor</label><br>
+            <br>
+
+
+            <p>2.How useful were the course materials (readings, textbooks, etc)?</p>
+            <input type="radio" id="excellent" name="materials" value="extremely useful">
+            <label for="excellent">Extremely useful</label><br>
+
+            <input type="radio" id="excellent" name="materials" value="very useful">
+            <label for="very good">Very Useful</label><br>
+
+            <input type="radio" id="fair" name="materials" value="somewhat useful">
+            <label for="fair">somewhat useful</label><br>
+
+            <input type="radio" id="poor" name="materials" value="Not at all useful">
+            <label for="excellent">Not at all useful</label><br>
+
+            <br>
+
+            <p>3.How clearly did your instructor explain the course material?</p>
+            <input type="checkbox" id="excellent" name="understanding" value="extremely clearly">
+            <label for="excellent">Excellent</label><br>
+
+            <input type="checkbox" id="excellent" name="understanding" value="very clearly">
+            <label for="very good">Very good</label><br>
+
+            <input type="checkbox" id="fair" name="understanding" value="somewhat clearly">
+            <label for="fair">fair</label><br>
+
+            <input type="checkbox" id="poor" name="understanding" value="Not so clearly">
+            <label for="excellent">poor</label><br>
+
+            <br>
+
+            <p>4.Was the speed with which your instructor presented the course material too fast, too slow, or about right?</p>
+            <input type="radio" id="excellent" name="speed" value="much too fast">
+            <label for="excellent">much too fast</label><br>
+
+            <input type="radio" id="excellent" name="speed" value="too fast">
+            <label for="very good">Too fast</label><br>
+
+            <input type="radio" id="fair" name="speed" value="the right amount">
+            <label for="fair">The right amount</label><br>
+
+            <input type="radio" id="poor" name="speed" value="Too slow">
+            <label for="excellent">Too slow</label><br>
+
+            <br>
+            <p>5.How well did your instructor answer students' questions</p>
+            <input type="radio" id="excellent" name="answer" value="extremely well">
+            <label for="excellent">Extremely well</label><br>
+
+            <input type="radio" id="excellent" name="answer" value="very well">
+            <label for="very good">Very well</label><br>
+
+            <input type="radio" id="fair" name="answer" value="not so well">
+            <label for="fair">not so well</label><br>
+
+            <input type="radio" id="poor" name="rate" value="poor">
+            <label for="excellent">poor</label><br>
+
+            <br>
+            <p>6.How will you rate your lecturers?</p>
+            <div class="dropdown">
+                <select name="" id="dropdown">
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+
+                </select>
+
+            </div>
+
+
+
+
+
+            <p>Additional information</p>
+            <textarea name="" id="" cols="20" rows="10"></textarea>
+
+            <button id="submit">Submit</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
