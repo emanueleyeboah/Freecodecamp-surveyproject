@@ -5,43 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>K.N.U.S.T. COURSE EVALUATION</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
     <!--Title for the survey-->
     <h1 id="title"> K.N.U.S.T. COURSE EVALUATION</h1>
 
     <!---Title description-->
     <p id="description">This survey is to assit Academic heads, Heads of Department and the various college provost(s) on students performance.</p>
-
+    <br>
     <!--form-->
     <form id="survey-form" action="index.html" id="dropdown">
 
         <div id="information">
             <!--Compulsory information-->
-            <fieldset>
-                <legend>Fill in the following</legend>
-                <!--Request for name-->
-                <div>
-                    <label id="name-label" for="name-label">Name</label>
-                    <input id="name" type="text" placeholder="Enter Your Full Name" required>
-                    <br>
 
-                    <!--Request for Email-->
-                    <label id="email-label" for="email-label">Email</label>
-                    <input id="email" type="email" placeholder="Enter Your Email" required>
+            <legend><strong>Fill in the following</strong></legend><br>
+            <!--Request for name-->
+            <div>
+                <label id="name-label" for="name-label">Name:</label>
+                <input id="name" type="text" placeholder="Enter Your Full Name" required>
+                <br><br>
 
-                    <br>
-                    <!--Request for Phone Number-->
-                    <label id="number-label" for="number-label">Number</label>
-                    <input type="number" id="number" placeholder="Enter Your Phone Number" max="7" min="0" required>
+                <!--Request for Email-->
+                <label id="email-label" for="email-label">Email:</label>
+                <input id="email" type="email" placeholder="Enter Your Email" required>
 
-                </div>
-        </div>
-        </fieldset>
+                <br><br>
+                <!--Request for Phone Number-->
+                <label id="number-label" for="number-label">Number:</label>
+                <input type="number" id="number" placeholder="Enter Your Phone Number" max="7" min="0" required>
 
+            </div>
+        </div> <br>
+
+        <!--Questions -->
 
         <div id="question">
 
@@ -129,66 +130,15 @@
                 </select>
 
             </div>
+            <br><br>
 
 
 
-
-
-            <p>Additional information</p>
-            <textarea name="" id="" cols="20" rows="10"></textarea>
-
-            <button id="submit">Submit</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <p><em>Additional information...</em></p><br>
+            <textarea name="" id="" cols="50" rows="5"></textarea>
+            <br><br>
+            <button id="submit">SUBMIT</button>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     </form>
