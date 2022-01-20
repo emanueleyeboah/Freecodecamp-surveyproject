@@ -4,3 +4,6 @@ KNUST COURSE EVALUATION is a survey which seeks to get information from students
 
 Click the link below to check the project:
 https://emanueleyeboah.github.io/Freecodecamp-surveyproject/
+
+
+NB: Not yet responsive
