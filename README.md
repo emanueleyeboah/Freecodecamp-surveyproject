@@ -1,4 +1,4 @@
-#Survey Project
+Survey Project
 
 This is a complete  graded survey project given by Freecode camp under the responsive certificate program.
 
